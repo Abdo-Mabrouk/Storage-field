@@ -16,27 +16,27 @@ export default function HomeClients() {
             <div className="text-center">
                 <Title text={"عملاء وثقو بخدمتنا"}/>
             </div>
-            <div class="w-full overflow-x-auto scrollbar-hide">
-                <div  class="flex gap-[32px] *:w-[208px] *:h-[112px] *:flex *:items-center *:justify-center *:bg-white *:shrink-0 *:rounded-[24px] p-8 ">
-                    <div class="">
+            <div className="w-full overflow-x-auto scrollbar-hide">
+                <div  className="flex gap-[32px] *:w-[208px] *:h-[112px] *:flex *:items-center *:justify-center *:bg-white *:shrink-0 *:rounded-[24px] p-8 ">
+                    <div className="">
                         <Image src={logo7} width={109} height={45}/>
                     </div>
-                    <div class="">
+                    <div className="">
                         <Image src={logo6} width={109} height={45}/>
                     </div>
-                    <div class="">
+                    <div className="">
                         <Image src={logo5} width={109} height={45}/>
                     </div>
-                    <div class="">
+                    <div className="">
                         <Image src={logo4} width={109} height={45}/>
                     </div>
-                    <div class="">
+                    <div className="">
                         <Image src={logo3} width={109} height={45}/>
                     </div>
-                    <div class="">
+                    <div className="">
                         <Image src={logo2} width={109} height={45}/>
                     </div>
-                    <div class="">
+                    <div className="">
                         <Image src={logo1} width={109} height={45}/>
                     </div>
                 </div>

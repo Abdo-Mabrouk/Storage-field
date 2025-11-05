@@ -13,19 +13,19 @@ export default function StorageforOthers() {
   return (
     <>
     <div className="bg-gray-400 mt-[90px]">
-        <div className="StorageforOtherspart1 px-[187px] py-[64px] flex items-center justify-between">
+        <div className="StorageforOtherspart1 px-[10px] lg:px-[187px] py-[64px] flex items-center justify-between">
             <div className="space-y-[32px]">
                 <h2 className=" text-[47px] font-bold text-white  ">التخزين للغير 3PL</h2>
                 <p className=" text-[24px] text-white max-w-[576px] ">نوفر لك خدمات التخزين بحسب المساحات التي ترغب بها (تخزين الارفف/ تخزين الطبليات)</p>
                 <button className="btn border-white hover:bg-black hover:border-black">احجز مساحتك الان</button>
             </div>
-            <div className="">
-                <Image src={imgCard1} width={250} height={286} />
+            <div className=" hidden lg:block">
+                <Image src={imgCard1} width={250} height={286} alt="...../" />
             </div>
         </div>
     </div>
     <div className="">
-        <div className="px-[187px] py-[64px]">
+        <div className="px-[10px] lg:px-[187px] py-[64px]">
             <Title text={"مساحات تخزينية متعددة تلبي جميع إحتياجاتكم"}/>
             <Image src={img2} className="w-full h-auto pb-[64px]" />
             <div className=" space-y-10">
