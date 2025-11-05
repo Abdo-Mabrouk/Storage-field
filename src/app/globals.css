@@ -20,7 +20,7 @@
 }
 @utility container {
     margin-inline: auto;
-    width: 90%;
+    width: 90% !important;
 }
 
 .animate-slide {

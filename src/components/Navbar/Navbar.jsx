@@ -21,7 +21,7 @@ export default function Navbar() {
         {/* logo */}
         <div className="flex gap-3 items-center">
           <Image src={logoimg}
-          width={200}  />
+          width={200} className="w-[100px] lg:w-[200px]"  />
         </div>
         {/* links */}
         <ul className="hidden lg:flex gap-[48px] items-center ">
@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* toggle button */}
         <button
           onClick={toggleOpen}
-          className="lg:hidden bg-orange-500 text-white text-2xl p-2 rounded"
+          className="lg:hidden bg-orange-500 text-white text-xl p-1 rounded"
         >
           {menuOpen ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
         </button>
