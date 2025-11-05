@@ -32,7 +32,7 @@ function FootarDark() {
                         </div>
                     </div>
                     <div className="lg:col-span-2 md:col-span-3 col-span-6 space-y-5 lg:px-20">
-                        <p className="text-white text-center lg:text-start text-[24px] mb-[48px] font-[500] ">روابط مختصره</p>
+                        <p className="text-white text-center lg:text-start text-[24px] mb-[47git statuspx] font-[500] ">روابط مختصره</p>
                         <ul className="flex flex-col gap-5 *:cursor-pointer *:hover:text-orange-500 *:text-xl *:font-semibold *:text-white">
                             <li className="relative before:absolute before:w-0 before:-bottom-3 hover:before:w-10 before:transition-all before:duration-300 before:start-5 before:h-1 before:bg-orange-500 " ><Link className={ pathname === "/" ? "text-[20px] font-semibold text-orange-500" :"cursor-pointer hover:text-orange-500 text-[20px] font-semibold text-white"} href="/"> الرئيسيه </Link></li>
                             <li className="relative before:absolute before:w-0 before:-bottom-3 hover:before:w-10 before:transition-all before:duration-300 before:start-5 before:h-1 before:bg-orange-500 " ><Link className={ pathname === "/WhoWeAre" ? "text-[20px] font-semibold text-orange-500" :"cursor-pointer hover:text-orange-500 text-[20px] font-semibold text-white"} href="/WhoWeAre"> من نحن </Link></li>
